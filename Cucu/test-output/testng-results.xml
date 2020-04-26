@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test suite" duration-ms="1804" started-at="2020-04-26T12:18:40Z" finished-at="2020-04-26T12:18:42Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Stark.runner@6fd02e5]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="test" duration-ms="1804" started-at="2020-04-26T12:18:40Z" finished-at="2020-04-26T12:18:42Z">
+      <class name="Stark.runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Stark.runner@6fd02e5]" name="setUpClass" is-config="true" duration-ms="431" started-at="2020-04-26T12:18:40Z" finished-at="2020-04-26T12:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Stark.runner@6fd02e5]" name="runScenario" duration-ms="489" started-at="2020-04-26T12:18:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-26T12:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["scenario with tags"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Stark.runner@6fd02e5]" name="runScenario" duration-ms="6" started-at="2020-04-26T12:18:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-26T12:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["select product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["scenario with tags"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Stark.runner@6fd02e5]" name="runScenario" duration-ms="2" started-at="2020-04-26T12:18:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-26T12:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["scenario with tags"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Stark.runner@6fd02e5]" name="runScenario" duration-ms="4" started-at="2020-04-26T12:18:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-26T12:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["scenario with tags"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Stark.runner@6fd02e5]" name="runScenario" duration-ms="3" started-at="2020-04-26T12:18:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-26T12:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["close"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["scenario with tags"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Stark.runner@6fd02e5]" name="tearDownClass" is-config="true" duration-ms="555" started-at="2020-04-26T12:18:41Z" finished-at="2020-04-26T12:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Stark.runner -->
+    </test> <!-- test -->
+  </suite> <!-- test suite -->
+</testng-results>
